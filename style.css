@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.94);
+}
+
+.imag{
+    margin-left: 400px;
+}
+#menu{
+    font-family: cursive;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+#menu #titulo{
+    padding-left: 300px;
+    color: white;
+    align-items: center;
+   
+}
+
+#menu #titulo:hover{
+    font-size: 40px;
+    color: blue;
+}
+
+#menu #lista{
+    margin: auto, 0, auto, 0;
+}
+
+#menu ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#menu a{
+    color: white;
+
+}
+
+#menu a:hover{
+    color: blue;
+    font-size: 30px;
+}
+
+#menu p{
+    padding-top: 30px;
+    font-size: 35px;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+    font-style: italic;
+    
+
+}
+
+main{
+    padding-top: 60px;
+    color: white;
+    background-image: url(imgs/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sobre h1{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: blue;
+    
+
+}
+
+#sobre h2{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+#sobre p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#sobre img{
+    margin-bottom: 20px;
+}
+
+#sobre{
+    margin-bottom: 50px;
+    font-size: 20px;
+   
+}
+
+#regras h2 {
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 120px;
+
+}
+
+#regras ul{
+    text-align: center;
+    margin-top: 30px;
+    gap: 18px;
+    
+}
+
+#regras{
+    margin-top: 180px;
+    margin-bottom: 180px;
+    font-size: 20px;
+}
+
+#amigos h2{
+    text-align: center;
+    background-color: blue;
+}
+
+#amigos p{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#amigos{
+    font-size: 20px;
+
+}
+
+#video_jogada h1{
+    margin-top: 140px;
+    text-align: center;
+    background-color: blue;
+}
+
+#video_jogada video{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 380px;
+    color: white;
+    height: 300px;
+    width: 600px;
+   
+}
+
+
+.divulgação{
+    background-image: url(imgs/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.divulgação:hover{
+    color: blue;
+}
+
+.divulgação img:hover{
+    border-radius: 22px;
+    color: purple;
+    background-color: purple;
+}
